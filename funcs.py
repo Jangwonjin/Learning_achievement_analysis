@@ -26,7 +26,7 @@ def calc_mean_components_by_group(items_per_component,group_mean, group_num):
     return mean_per_component
 
 # Draw radar plot
-def make_spider(categories, values, row, ax, group):
+def make_spider(categories, values, row, ax, group, linestyle):
   
     N = len(categories)
 
@@ -46,8 +46,8 @@ def make_spider(categories, values, row, ax, group):
 
     values = list(values)
     values.append(values[0])
-    
-    ax.plot(angles, values, linewidth=2, linestyle='solid')
-    ax.fill(angles, values, alpha=0.4)
 
+    ax.plot(angles, values, linewidth=2, linestyle = linestyle)
+    ax.fill(angles, values, alpha=0.4)
+        
     plt.title(group, size=15, y=1.1)
