@@ -17,4 +17,4 @@ Learning achievements for each group are presented by items and components.
 ### 2. Gaussian Mixture Models (GMMs)
 ![GMM](/figure/gmm_radar.jpg)
 
-## REFERENCE
+## Reference
