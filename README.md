@@ -1,11 +1,11 @@
 # Learning Achievements Analysis
-## :memo: DATASET
+## :memo: Dataset
 Data were collected through the test. 95 students participated in the test, and 10 items(questions) were taken on the CBT(Computer-Based Testing).
 
-## :memo: PROCESS
+## :memo: Process
 ![blockdiagram](/figure/blockdiagram.jpg)
 
-## :memo: RESULTS
+## :memo: Results
 * K-means clustering: **4** groups 
 * Gaussian Mixture Models: **5** groups
 
