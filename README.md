@@ -6,7 +6,8 @@ git clone github.com/Jangwonjin/Learning_achievement_analysis
 
 Use ```maincode.ipynb``` for the analysis.
 ## :memo: Dataset
-Data were collected through the test. 95 students participated in the test, and 10 items(questions) were taken on the CBT(Computer-Based Testing).
+Data were collected through the test.  
+95 students participated in the test, and 10 items(questions) were taken on the CBT(Computer-Based Testing).
 
 ## :memo: Process
 ![blockdiagram](/figure/blockdiagram.jpg)
@@ -22,5 +23,3 @@ Learning achievements for each group are presented by items and components.
 
 ### 2. Gaussian Mixture Models (GMMs)
 ![GMM](/figure/gmm_radar.jpg)
-
-## Reference
